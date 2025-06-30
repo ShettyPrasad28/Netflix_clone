@@ -7,12 +7,12 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:90vh;
+    height:85vh;
     position:relative;
 }
 
 .main .box{
-    height: 90vh;
+    height: 85vh;
     width: 100%;
     position:absolute;
     top:0;
@@ -40,3 +40,80 @@ nav img{
     position: relative;
     z-index: 10;
 }
+
+
+.dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropbtn {
+      background-color: #000;
+      color: white;
+      padding: 10px 16px;
+      font-size: 12px;
+      border: 1px solid #555;
+      border-radius: 6px;
+      cursor: pointer;
+      min-width: 100px;
+    }
+
+    .dropbtn::before {
+      content: " ";
+      margin-right: 5px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      color: black;
+      min-width: 100px;
+      border-radius: 4px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      overflow: hidden;
+    }
+
+    .dropdown-content a {
+      padding: 10px 16px;
+      display: block;
+      text-decoration: none;
+      color: black;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .signbtn{
+        position: relative;
+        display: inline;
+
+    }
+    .sign{
+        background-color: #cc0606;
+        color: white;
+        padding: 10px 16px;
+        font-size: 12px;
+        border: 1px solid #555;
+        border-radius: 6px;
+        cursor: pointer;
+        min-width: 100px;
+        
+    }
+    .mid-head{
+        height: 100%;
+        position: relative;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        bottom: 100px;
+    }
