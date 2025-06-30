@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -108,6 +110,7 @@ nav img{
         
     }
     .mid-head{
+        font-family: "Martel Sans", sans-serif;
         height: 100%;
         position: relative;
         color:white;
@@ -116,4 +119,24 @@ nav img{
         align-items: center;
         justify-content: center;
         bottom: 100px;
+        column-gap: 10px;
+    }
+
+    .mid-head :first-child{
+        font-weight: 900;
+        font-size: 48px;
+    }
+
+    .mid-head>:nth-child(2){
+        font-weight: 900;
+        font-size: 48px;
+    }
+
+    .mid-head>:nth-child(3){
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .mid-head:last-child{
+        font-weight: 400;
+        font-size: 16px;
     }
